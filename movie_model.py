@@ -26,7 +26,7 @@ def recommend(movie):
 
 st.header('Movie Recommender System')
 movies = pickle.load(open('movies.pkl','rb'))
-similarity = pickle.load(open('similarity.pkl','rb'))
+similarity = pickle.load(open('https://drive.google.com/file/d/10aCTnXS5FIAPUxOH6W0BGFFhMKsKBgfL/view?usp=sharing','rb'))
 
 movie_list = movies['title'].values
 selected_movie = st.selectbox(
